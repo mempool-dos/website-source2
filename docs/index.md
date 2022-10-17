@@ -1,9 +1,24 @@
+#<span class="label" style="background-color: white; color: rgb(0, 153, 51);border: 1px solid rgb(0, 153, 51);border-radius: 5px;">MempoolDoS</span>: Detecting attacks of Ethereum mempool DoS
 
-#<span class="label" style="background-color: white; color: rgb(0, 153, 51);border: 1px solid rgb(0, 153, 51);border-radius: 5px;">EthSec</span>: Ethereum monitor
+Found empty blocks
+===
 
-We will build a security monitor to expose attack instances.<br/>
-Here is the bar chart of the empty blocks on Ethererum. We analyzed [[Etherscan Blocks](https://etherscan.io/blocks)]<br/>
-And found in lasted 10000 blocks, there are 67 almost empty blocks whose gas used is less than 0.1%. <br/>
-In particular, the occurrence of two consecutive empty blocks also occurred once.<br/>
+In the last 10000 blocks, we found XXX empty blocks whose Gas utilization is less than 0.1%.
+
+Recent empty blocks: 
+
+| Height | Gas utilization | Web link |
+| --- | --- | --- | 
+| 123 | 456 | 6789|
+
+Recent consecutive empty blocks: 
+
+| Height | Gas utilization | Web link |
+| --- | --- | --- | 
+| 123 | 456 | 6789|
+
 
 ![Screenshot](img/Deter_plot.png)
+
+
+
