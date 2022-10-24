@@ -1,17 +1,13 @@
-
-
-
 #<span class="label" style="background-color: white; color: rgb(0, 153, 51);border: 1px solid rgb(0, 153, 51);border-radius: 5px;">MempoolDoS</span>: Detecting attacks of Ethereum mempool DoS
-# Found empty blocks
-
+Found empty blocks
+===
 
 In the last 100000 blocks, we found 404 empty blocks whose Gas utilization is less than 0.1%.
 
 ![Screenshot](img/Deter_plot.png)
 
-
-Recent empty blocks: 
-  
+Recent empty blocks
+===
 
 |Height|Gas utilization|Web link|
 | :---: | :---: | :---: |
@@ -415,7 +411,12 @@ Recent empty blocks:
 |15684505|0 (0.00%, -100%)|[Block 15684505]|
 
 
-Recent consecutive empty blocks:  
+Recent consecutive empty blocks
+===
+
+For block 15757149 and 15757148, Here is the plot of gas used in 25 blocks near them.
+
+![Screenshot](img/Plot_gas_used.png)
 
 |Height|Gas utilization|Web link|
 | :---: | :---: | :---: |
@@ -434,7 +435,6 @@ Recent consecutive empty blocks:
 |15694889|0 (0.00%, -100%)|[Block 15694889]|
 |15694888|0 (0.00%, -100%)|[Block 15694888]|
 |   |   |   |
-
 
 
 [Block 15684505]: https://etherscan.io/block/15684505
@@ -839,3 +839,4 @@ Recent consecutive empty blocks:
 [Block 15776847]: https://etherscan.io/block/15776847
 [Block 15777704]: https://etherscan.io/block/15777704
 [Block 15782907]: https://etherscan.io/block/15782907
+
